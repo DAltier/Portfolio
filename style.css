@@ -1,0 +1,185 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+}
+
+/*div.container: header, intro, projects, footer*/
+div.container {
+    width: 970px;
+    background: radial-gradient(#6f5964,#3a272e,#211015);
+    margin: 0px auto;
+}
+
+/*div.header section: h1, h2*/
+div.container div.header {
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(222, 222, 226);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*div.intro section: img, div.bio*/
+div.container div.intro {
+    height: 300px;
+    width: 950px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px; 
+}
+
+/*intro image*/
+div.container div.intro img {
+    height: 266px;
+    border: 8px solid rgb(141, 137, 137);
+}
+
+/*div.bio section: h2, p, p, a*/
+div.container div.intro div.bio {
+    height: 280px;
+    width: 480px;
+    background-image: linear-gradient(to right, rgb(231, 221, 230), rgb(212, 172, 212));
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+/*paragraph and links throughout the container*/
+div.container p,a {
+    padding: 8px;
+}
+
+/*intro h2 section*/
+div.container div.intro h2 {
+    height: 40px;
+    width: inherit;
+    background-image: linear-gradient(rgb(184, 178, 178),grey,rgb(184, 178, 178));
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+/*div.projects section: div.project, div.prpject, div.project*/
+div.container div.projects {
+    height: 590px;
+    width: 970px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/*div.project section*/
+div.container div.projects div.project {
+    height: 560px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    background-color: rgb(231, 221, 230);
+    background-image: linear-gradient(to right, rgb(231, 221, 230), rgb(212, 172, 212))
+}
+
+/*project title section*/
+div.container div.projects div.project h2 {
+    height: 40px;
+    width: 280;
+    background-image: linear-gradient(rgb(184, 178, 178),grey,rgb(184, 178, 178));
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+/*project description*/
+div.container div.projects div.project div.project_description{
+    width: 300px;
+}
+
+/*h3 throughout the container*/
+div.container h3{
+    height: 40px;
+    width: inherit;
+    background-image: linear-gradient(rgb(184, 178, 178),grey,rgb(184, 178, 178));
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+/*project image*/
+div.container div.projects div.project div.project_description img {
+    height: auto;
+    width: inherit;
+}
+
+/*project paragraph*/
+div.container div.projects div.project p {
+    width: 284px;
+}
+
+/*project technologies section*/
+div.container div.projects div.project div.technologies {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/*project technologies icons*/
+div.container div.projects div.project div.technologies div.tech_icons {
+    width: 280px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*project icons*/
+div.container div.projects div.project div.technologies div.tech_icons img {
+    height: 42px;
+    padding: 5px;
+}
+
+/*project button*/
+div.container button {
+	background-color:#2e7461;
+	border: 1px solid black;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+    text-align: center;
+    padding: 4px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+/*div.footer: paragraph, icon*/
+div.container div.footer {
+    height: 60px;
+    width: 970px;
+    background-color: rgb(222, 222, 226);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/*footer text*/
+div.container div.footer p {
+    display: flex;
+    flex-basis: 100%;
+    font-style: italic;
+    justify-content: center;
+}
+
+/*footer icons*/
+div.container div.footer img {
+    height: 20px;
+}
